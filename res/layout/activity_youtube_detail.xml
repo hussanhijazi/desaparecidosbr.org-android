@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:ads="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             
+<com.google.android.gms.ads.AdView 
+          		android:id="@+id/adView"
+         		android:layout_width="fill_parent"
+          		android:layout_height="wrap_content"
+          		ads:adUnitId="@string/ad_id"
+          		android:visibility="@string/ad_visibility"
+          		android:background="@color/btnGray"
+          		ads:adSize="SMART_BANNER"/>
+             
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card">
+
+    <TextView
+        android:id="@+id/youtubetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="@string/empty_textview" />
+    
+    <!-- description -->
+     
+     <TextView
+        android:id="@+id/youtubedescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:text="@string/empty_textview" />
+
+    <!-- date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/textview_date" />
+     
+    <TextView
+        android:id="@+id/youtubeurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_textview" />
+    
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+    
+    <!-- buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    
+    <Button
+        android:id="@+id/playbutton"
+        style="@style/CardActionButton"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_button" />
+    
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+    
+   <Button
+       android:id="@+id/openbutton"
+       style="@style/CardActionButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="10dp"
+       android:background="@android:color/transparent"
+       android:text="@string/open_button" />
+   
+   <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray" />
+   
+   <Button
+        android:id="@+id/favoritebutton"
+        style="@style/CardActionButton"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="@string/favorite_button" />
+ 
+      </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

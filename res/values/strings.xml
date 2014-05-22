@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    This document contains:
+    -Required setup information
+    -Strings for translation
+    
+    Notations:
+    -When a string value starts en ends with a " this is only to maintain spaces, the " will not be visible 
+    -To do a line break, use \n and to escape characters use \character (e.g.: \" will make the " visible)
+
+    @author Sherdle
+    -->
+
+    <string name="app_name">Desaparecidos Brasil</string>
+    <string name="texto_inicio">
+	<![CDATA[   
+   Obrigado por usar o aplicativo de pessoas desaparecidas no Brasil.
+   Todos os dados foram obtidos do site www.desaparecidos.gov.br . 
+    ]]>
+    </string>
+    <string name="atencao">ATENÇÃO: Se você tem informações que ajudem na busca e localização dessa pessoa, entre em contado com a Delegacia de Polícia ou Conselho Tutelar de sua Cidade. Ou Disque 100, a ligação é gratuita e sigilosa.</string>
+
+    <string name="origem_dados">Todos os dados foram obtidos do site www.desaparecidos.gov.br . A atualização dos dados é feita 1 por dia.</string>
+    <string name="twitter_api_consumer_key">YOURCONSUMERKEYHERE</string>
+    <string name="twitter_api_consumer_secret_key">YOURSECRETKEYHERE</string>
+    <string name="youtube_api_key">YOURYOUTUBEAPIKEYEHERE</string>
+    <string name="maps_api_key">YOURMAPSKEYHERE</string>
+	
+	<string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="app_id">602770343164113</string>
+	
+    <!-- Enter a ADMOB ID if you like ads -->
+    <string name="ad_id">YOURPUBIDHERE</string>
+    <!-- Set to @string/ad_on to enable ads and to ad_off to disable ads -->
+    <string name="ad_visibility">@string/ad_off</string>
+    <string name="ad_on">0</string> <!-- This is VISIBLE -->
+    <string name="ad_off">2</string> <!-- This is GONE -->
+
+
+    <!-- RSS Push Notification, we will check this feed for new articles and notify the user -->
+    <string name="rss_push_url">YOURFEEDURLHERE</string>
+
+    <!-- about text, you can use basic html, stay between [ and ] -->
+    <string name="about_text">
+<![CDATA[   
+  Aplicativo criado para poder ajudar a encontrar pessoas desaparecidas no Brasil
+    ]]>
+    </string>
+
+    <!-- Map settings -->
+    <string name="maps_text">
+<![CDATA[   
+    <b>Adress:</b>
+    <br>SomeStreet 5<br>Sydney, Australia<br><br>
+    <i>Email: Mail@Company.com</i>
+    ]]>
+    </string>
+    <string name="marker_title">Company</string>
+    <string name="market_subtitle">This is where our office is.</string>
+    <string name="latitude">-33.864</string>
+    <string name="longitude">151.206</string>
+
+    <item name="zoomlevel" type="integer">13</item>
+
+    <!-- Strings for optional translation below this line -->
+
+
+    <!-- twitter section -->
+
+    <string name="tweet">tweet</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="profile_image">Profile image</string>
+    <string name="message">Message</string>
+    <string name="tweet_date">Tweeted at</string>
+    <string name="tweet_get_failed">We have not been able to retrieve the tweets!</string>
+    <string name="tweet_share_url">"Tweet url: "</string>
+    <string name="tweet_share_text_begin">" Seen in the \""</string>
+    <string name="tweet_share_text_end">\" app</string>
+    <string name="tweet_share_header">\'s tweet</string>
+
+    <!-- rss -->
+    <string name="item_get_failed">We have not been able to retrieve items!</string>
+    <string name="ok">Ok</string>
+    <string name="feed_title_value">Feed title</string>
+    <string name="feed_link_value">Feed description</string>
+    <string name="feed_description_value">Feed link</string>
+    <string name="item_share_begin">"\n\nArticle Link: "</string>
+    <string name="item_share_middle">" Seen in the \""</string>
+    <string name="item_share_end">\" app</string>
+    <string name="notification_title">New articles</string>
+    <string name="notification_message">New items available!</string>
+
+    <!-- youtube -->
+    <string name="video_get_failed">We have not been able to retrieve videos!</string>
+    <string name="video_search_hint">Search this Channel</string>
+    <string name="video_navigation_previous">"Previous "</string>
+    <string name="video_navigation_next">"Next "</string>
+    <string name="video_navigation_end">" results"</string>
+    <string name="play_button">Play</string>
+    <string name="error_search_playlist">You can not search within a playlist</string>
+    <string name="video_share_begin">"I just saw this video: "</string>
+    <string name="video_share_middle">" in the \""</string>
+    <string name="video_share_end">\" app</string>
+
+    <!-- webview -->
+    <string name="error_received">Problem loading page</string>
+    <string name="no_connection">No connection</string>
+    <string name="alert">Alert</string>
+    <string name="web_share_begin">"Look what I saw in the \""</string>
+    <string name="web_share_end">"\"app: "</string>
+
+    <!-- favorites -->
+    <string name="item_del_text">You are about to delete all your favorites</string>
+    <string name="item_del_confirmation">I know</string>
+    <string name="no_favorites">You currently do not have any favorites</string>
+    <string name="favorites_how_add">To add an item to your favorites, open the menu of the item and click &quot;add favorites&quot;</string>
+    <string name="favorites_how_remove">To remove an article, you can long press the item</string>
+    <string name="favorite_success">The item has been added</string>
+    <string name="favorite_duplicate">This item has already been added</string>
+    <string name="favorite_menu_delete">Delete</string>
+
+    <!-- settings -->
+    <string name="settings_general_summary">Username and password information</string>
+    <string name="settings_general">General</string>
+    <string name="settings_default_set_summary">Set page to be loaded on start</string>
+    <string name="settings_default_set">Default page</string>
+    <string name="settings_showmenu_summary">Yes/No</string>
+    <string name="settings_showmenu">Show side menu on start</string>
+    <string name="settings_youtube_summary">Settings regarding Youtube sections</string>
+    <string name="settings_youtube">Youtube</string>
+    <string name="settings_numberofvideos_summary">How many videos to show per page</string>
+    <string name="settings_numberofvideos">Number of videos</string>
+    <string name="settings_rss_summary">Settings regarding Rss section</string>
+    <string name="settings_rss">Rss</string>
+    <string name="settings_webviewrss_summary">Can be useful for interactive content</string>
+    <string name="settings_webviewrss">Use webview for description</string>
+    <string name="settings_rssnotify_summary">Get informed when there are new articles</string>
+    <string name="settings_rssnotify">Notifications</string>
+    <string name="settings_other_summary">Other information</string>
+    <string name="settings_other">Other</string>
+    <string name="settings_aboutus_summary">Information about our application</string>
+    <string name="settings_aboutus">About</string>
+    <string name="settings_rate_summary">Help other users enjoy this application</string>
+    <string name="settings_rate">Rate this app</string>
+
+    <!-- media -->
+    <string name="volume_low">Turn your volume up!</string>
+
+    <!-- general -->
+    <string name="share_header">Share</string>
+    <string name="about_header">About</string>
+    <string name="favorite_button">Favorite</string>
+    <string name="open_button">Open</string>
+    <string name="textview_date">"Date: "</string>
+    <string name="loading">Loading..</string>
+    <string name="empty_textview">Error loading data</string>
+    <string name="section">Section</string>
+    <string name="share">Share</string>
+    <string name="info">Info</string>
+    <string name="welcome">Welcome</string>
+    <string name="upgrade_text">We have upgraded this application, please reselect your favorite page!</string>
+    <string name="default_set">Select the page that should be loaded by default in the list below. You can always change this later.</string>
+    <string name="default_set_success">Successfully set this page on start</string>
+    <string name="not_back">There is nothing to go back to</string>
+    <string name="no_internet">You seem to have no internet connection, this app requires internet to get the latest content.\n\nYou can only see your favorite/offline items now.</string>
+
+</resources>

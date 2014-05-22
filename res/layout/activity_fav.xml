@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:ads="http://schemas.android.com/apk/res-auto"
+      android:layout_width="fill_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+      
+        <com.google.android.gms.ads.AdView 
+          		android:id="@+id/adView"
+         		android:layout_width="fill_parent"
+          		android:layout_height="wrap_content"
+          		ads:adUnitId="@string/ad_id"
+          		android:visibility="@string/ad_visibility"
+          		android:background="@color/btnGray"
+          		ads:adSize="SMART_BANNER"/>
+      
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+    <TextView
+        android:id="@+id/android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/no_favorites" />
+
+</LinearLayout>

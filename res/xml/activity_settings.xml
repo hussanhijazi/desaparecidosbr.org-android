@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory
+   android:summary="@string/settings_general_summary"
+   android:title="@string/settings_general" >
+   <CheckBoxPreference
+     android:key="checkBox"
+     android:summary="@string/settings_showmenu_summary"
+     android:title="@string/settings_showmenu" />
+   <Preference
+      android:key="default"
+      android:summary="@string/settings_default_set_summary"
+      android:title="@string/settings_default_set" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="@string/settings_youtube_summary"
+   android:title="@string/settings_youtube" >
+  <ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="@string/settings_numberofvideos_summary"
+     android:defaultValue="15"
+     android:title="@string/settings_numberofvideos" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+     android:summary="@string/settings_rss_summary"
+     android:title="@string/settings_rss" >
+  <CheckBoxPreference
+     android:key="checkBoxWebview"
+     android:summary="@string/settings_webviewrss_summary"
+     android:title="@string/settings_webviewrss" />
+  <SwitchPreference
+        android:key="switchRss"
+        android:summary="@string/settings_rssnotify_summary"
+        android:title="@string/settings_rssnotify" />
+ </PreferenceCategory>
+ 
+  <PreferenceCategory
+     android:summary="@string/settings_other_summary"
+     android:title="@string/settings_other" >
+      <Preference
+      android:key="about"
+      android:summary="@string/settings_aboutus_summary"
+      android:title="@string/settings_aboutus" />
+      <Preference
+      android:key="rate"
+      android:summary="@string/settings_rate_summary"
+      android:title="@string/settings_rate" />
+  
+ </PreferenceCategory>
+     
+</PreferenceScreen>

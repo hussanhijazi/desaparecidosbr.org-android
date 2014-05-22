@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical" >
+   
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:gravity="left"
+            android:background="@drawable/drawer_title_shape" >
+      
+        <Button
+ 			android:id="@+id/myItems"
+ 			android:layout_width="wrap_content"
+ 			android:layout_height="fill_parent"
+ 			android:drawableLeft="@drawable/ic_menu_friendslist"
+ 			android:background="@drawable/button_flat"
+ 			android:textColor="@color/secondaryTextColor"
+ 			android:text=" My Items "
+ 			android:padding="5dp"
+ 			android:layout_margin="5dp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="right">
+         
+         <TextView          
+      		android:layout_height="fill_parent" 
+      		android:layout_width="1px" 
+      		android:background="#DADADA" />
+         
+         <ImageButton
+             android:id="@+id/settings"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:layout_gravity="center_vertical"
+             android:src="@drawable/ic_action_settings"
+             android:background="?android:selectableItemBackground" />
+         
+         </LinearLayout>
+         
+    </LinearLayout>
+
+     <ExpandableListView android:id="@+id/slidingmenu_view"
+        android:background="@android:color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:transcriptMode="alwaysScroll"/>
+    
+</LinearLayout>

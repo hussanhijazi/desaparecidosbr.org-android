@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="twitter">#34B2E7</color>
+    
+    <!-- Welcome activity -->
+    <color name="blue">#68A9F2</color>
+    <color name="blue_dark">#2D74C4</color>
+    
+    <!-- detail card buttons -->
+    <color name="default_green">#688A3E</color>
+    
+    <!-- Regular colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#F6F6F6</color>
+    
+    <!-- Sliding Menu -->
+    <color name="lvHeaderTextColor">#168686</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="secondaryTextColor">#777777</color>
+
+    <color name="goblinGreen">#168686</color>
+    <color name="lvHeaderDividerColor">#168686</color>
+    <color name="lvDividerColor">#E0E0E0</color>
+    
+    <color name="btnGray">#d6d6d6</color>
+    
+</resources>

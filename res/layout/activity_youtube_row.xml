@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- org.desaparecidosbr.yt.ui.widget.UrlImageView -->
+        <ImageView
+      	    android:id="@+id/userVideoThumbImageView"
+      	    android:layout_width="80dp"
+      	    android:layout_height="50dp"
+      	    android:layout_gravity="center_vertical"
+      	    android:contentDescription="YouTube video thumbnail"
+      	    android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/userVideoTitleTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="@string/empty_textview"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+  
+        <TextView
+        android:id="@+id/userVideoDateTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_textview" />
+ 
+</LinearLayout>
+
+</FrameLayout>

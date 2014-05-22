@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+   <string-array name="listOptions">
+     <item>10 per page</item>
+     <item>15 per page</item>
+     <item>20 per page</item>
+     <item>25 per page</item>
+     <item>30 per page</item>
+     </string-array>
+ 
+   <string-array name="listValues">
+     <item>10</item>
+     <item>15</item>
+     <item>20</item>
+     <item>25</item>
+     <item>30</item>
+   </string-array>
+ </resources>

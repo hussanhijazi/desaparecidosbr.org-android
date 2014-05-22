@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/myMargin"
+    android:layout_marginRight="@dimen/myMargin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/myMargin"
+        android:background="@drawable/bg_card"
+        android:text="@string/texto_inicio" />
+    <EditText
+        android:id="@+id/pessoas_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/myMargin"
+        android:hint="filtrar por nome..."
+        android:inputType="textVisiblePassword" />
+    <ListView
+        android:id="@+id/pessoas_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+         android:background="@color/gray"
+         />
+
+</LinearLayout>
