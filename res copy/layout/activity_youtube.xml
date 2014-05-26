@@ -14,7 +14,7 @@
           		android:background="@color/btnGray"
           		ads:adSize="SMART_BANNER"/>
 
-    <org.desaparecidosbr.yt.VideosListView
+    <org.desaparecidosbr.app.yt.VideosListView
         android:id="@+id/videosListView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" 

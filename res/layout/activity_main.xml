@@ -5,9 +5,8 @@
     android:layout_height="fill_parent"
     android:layout_marginLeft="@dimen/myMargin"
     android:layout_marginRight="@dimen/myMargin"
-    android:orientation="vertical"
     android:focusableInTouchMode="true"
-     >
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/inicio_txt"
@@ -33,12 +32,24 @@
         android:layout_marginTop="@dimen/myMargin"
         android:hint="filtrar por nome ou cidade..."
         android:inputType="textVisiblePassword" />
+
     <ListView
         android:id="@+id/pessoas_list"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:divider="@null"
-         android:background="@color/gray_claro2"
-         />
+        android:layout_height="fill_parent"
+        android:background="@color/gray_claro2"
+        android:divider="@null" />
 
+
+
+<!--     <LinearLayout
+        android:id="@+id/lyt_ad_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <include layout="@layout/ad_view" />
+    </LinearLayout>
+ -->
 </LinearLayout>

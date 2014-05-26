@@ -6,6 +6,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="lib" path="/Users/hussan/dev/android2/etc/google-gson-2.2.4/gson-2.2.4.jar"/>
-	<classpathentry kind="lib" path="/Users/hussan/dev/android2/etc/twitter4j-4.0.1/lib/twitter4j-core-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/hussan/android/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

@@ -22,7 +22,11 @@
     <color name="green_escuro">#87AAAE</color>
     <color name="green_claro">#DDECEF</color>
     <color name="green_escuro2">#214448</color>
-    	
+    
+    <color name="green_logo_escuro">#79B242</color>
+    <color name="green_logo_claro">#85c248</color>
+
+     
     
     <!-- Sliding Menu -->
     <color name="lvHeaderTextColor">#168686</color>

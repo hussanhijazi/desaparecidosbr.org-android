@@ -2,8 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/pessoa_view"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
- >
+    android:layout_height="wrap_content" >
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,8 +12,8 @@
         android:layout_marginRight="@dimen/myMargin"
         android:layout_marginTop="@dimen/myMargin"
         android:background="@drawable/bg_card"
-        android:paddingBottom="@dimen/myMargin"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/myMargin" >
 
         <com.android.volley.toolbox.NetworkImageView
             android:id="@+id/pessoa_img"
@@ -25,8 +24,6 @@
             android:maxLines="2"
             android:textAppearance="?android:attr/textAppearanceSmall" />
 
-     	
-	
         <TextView
             android:id="@+id/pessoa_situacao"
             android:layout_width="wrap_content"
@@ -34,7 +31,7 @@
             android:layout_marginTop="@dimen/myMargin"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceSmall" />
-	
+
         <TextView
             android:id="@+id/pessoa_txt_nome"
             android:layout_width="wrap_content"
@@ -312,16 +309,14 @@
             android:text="Tipo físico:"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/green_escuro" />
-	
-     
-        
+
         <TextView
             android:id="@+id/pessoa_txt_tipo_fisico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
             android:textAppearance="?android:attr/textAppearanceSmall" />
-         
+
         <Button
             android:id="@+id/pessoa_avisar"
             android:layout_width="fill_parent"
@@ -333,28 +328,36 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textColor="@color/white" />
 
-         <Button
-             android:id="@+id/pessoa_share"
-             android:layout_width="fill_parent"
-             android:layout_height="wrap_content"
-             android:background="@drawable/blue_button"
-             android:text="Compartilhar"
-             android:textColor="@color/white"
-             android:layout_marginBottom="@dimen/myMargin"
-              />
+        <Button
+            android:id="@+id/pessoa_share"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/myMargin"
+            android:background="@drawable/blue_button"
+            android:text="Compartilhar"
+            android:textColor="@color/white" />
 
-         <TextView
+        <TextView
             android:id="@+id/pessoa_txt_data_registro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="--"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textColor="@color/green_medio"
-             />
-         
-         
+            android:textColor="@color/green_medio" />
+
         <!-- </LinearLayout> -->
 
+        <LinearLayout
+            android:id="@+id/lyt_ad_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/myMargin"
+             android:layout_marginTop="@dimen/myMargin"
+             >
+
+            <include layout="@layout/ad_view" />
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
