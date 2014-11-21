@@ -1,0 +1,991 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From DesaparecidosBR:
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/Code.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* License
+* build.gradle
+* desaparecidosBR/
+* desaparecidosBR/build.gradle
+* desaparecidosBR/libs/
+* desaparecidosBR/libs/google-play-services.jar
+* desaparecidosBR/lint.xml
+* desaparecidosBR/src/
+* desaparecidosBR/src/main/
+* desaparecidosBR/src/main/AndroidManifest.xml
+* desaparecidosBR/src/main/java/
+* desaparecidosBR/src/main/java/org/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/MainActivity.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/PessoaActivity.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/adapters/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/adapters/PessoasAdapter.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/api/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/api/ApiCore.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/api/ApiListener.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/api/PessoasApi.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/entity/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/entity/Pessoa.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/MyApplication.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/MyConfig.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/MySignature.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/Utility.java
+* desaparecidosBR/src/main/java/org/desaparecidosbr/app/utils/VolleySingleton.java
+* desaparecidosBR/src/main/res/
+* desaparecidosBR/src/main/res/.DS_Store
+* desaparecidosBR/src/main/res/drawable-hdpi/
+* desaparecidosBR/src/main/res/drawable-hdpi/.DS_Store
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_action_settings.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_details.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_menu_friendslist.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_navigation_drawer.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_pause_active.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_pause_unactive.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_play_active.png
+* desaparecidosBR/src/main/res/drawable-hdpi/ic_play_unactive.png
+* desaparecidosBR/src/main/res/drawable-ldpi/
+* desaparecidosBR/src/main/res/drawable-ldpi/.DS_Store
+* desaparecidosBR/src/main/res/drawable-ldpi/ic_menu_friendslist.png
+* desaparecidosBR/src/main/res/drawable-mdpi/
+* desaparecidosBR/src/main/res/drawable-mdpi/.DS_Store
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_action_settings.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_details.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_menu_friendslist.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_navigation_drawer.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_pause_active.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_pause_unactive.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_play_active.png
+* desaparecidosBR/src/main/res/drawable-mdpi/ic_play_unactive.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_action_search.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_details.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_launcher.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_menu_back.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_menu_forward.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_menu_friendslist.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_navigation_drawer.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_pause_active.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_pause_unactive.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_play_active.png
+* desaparecidosBR/src/main/res/drawable-xhdpi/ic_play_unactive.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/
+* desaparecidosBR/src/main/res/drawable-xxhdpi/.DS_Store
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_action_settings.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_menu_friendslist.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_navigation_drawer.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_pause_active.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_pause_unactive.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_play_active.png
+* desaparecidosBR/src/main/res/drawable-xxhdpi/ic_play_unactive.png
+* desaparecidosBR/src/main/res/drawable/
+* desaparecidosBR/src/main/res/drawable/.DS_Store
+* desaparecidosBR/src/main/res/drawable/bg_card.xml
+* desaparecidosBR/src/main/res/drawable/bg_card2.xml
+* desaparecidosBR/src/main/res/drawable/blue_button.xml
+* desaparecidosBR/src/main/res/drawable/blur.jpg
+* desaparecidosBR/src/main/res/drawable/button_card.xml
+* desaparecidosBR/src/main/res/drawable/icone.png
+* desaparecidosBR/src/main/res/drawable/myprogressbar.xml
+* desaparecidosBR/src/main/res/drawable/pink_button.xml
+* desaparecidosBR/src/main/res/drawable/red_button.xml
+* desaparecidosBR/src/main/res/drawable/red_button_gradient.xml
+* desaparecidosBR/src/main/res/layout/
+* desaparecidosBR/src/main/res/layout/.DS_Store
+* desaparecidosBR/src/main/res/layout/activity_main.xml
+* desaparecidosBR/src/main/res/layout/activity_pessoa.xml
+* desaparecidosBR/src/main/res/layout/activity_pessoa_row.xml
+* desaparecidosBR/src/main/res/layout/ad_view.xml
+* desaparecidosBR/src/main/res/menu/
+* desaparecidosBR/src/main/res/menu/menu_main.xml
+* desaparecidosBR/src/main/res/values/
+* desaparecidosBR/src/main/res/values/colors.xml
+* desaparecidosBR/src/main/res/values/dimens.xml
+* desaparecidosBR/src/main/res/values/settings.xml
+* desaparecidosBR/src/main/res/values/strings.xml
+* desaparecidosBR/src/main/res/values/styles.xml
+* desaparecidosBR/src/main/res/xml/
+* desaparecidosBR/src/main/res/xml/app_tracker.xml
+* desaparecidosBR/src/main/res/xml/global_tracker.xml
+* desaparecidosBRVolley/
+* desaparecidosBRVolley/build.gradle
+* desaparecidosBRVolley/src/
+* desaparecidosBRVolley/src/androidTest/
+* desaparecidosBRVolley/src/androidTest/java/
+* desaparecidosBRVolley/src/androidTest/java/com/
+* desaparecidosBRVolley/src/androidTest/java/com/android/
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/CacheDispatcherTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/NetworkDispatcherTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/RequestQueueTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/RequestTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/ResponseDeliveryTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockCache.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockHttpClient.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockHttpStack.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockHttpURLConnection.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockNetwork.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockRequest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/MockResponseDelivery.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/TestRequest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/mock/WaitableQueue.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/BasicNetworkTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/ByteArrayPoolTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/DiskBasedCacheTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/HttpClientStackTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/HttpHeaderParserTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/HurlStackTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/ImageRequestTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/NetworkImageViewTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/toolbox/PoolingByteArrayOutputStreamTest.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/utils/
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/utils/CacheTestUtils.java
+* desaparecidosBRVolley/src/androidTest/java/com/android/volley/utils/ImmediateResponseDelivery.java
+* desaparecidosBRVolley/src/androidTest/res/
+* desaparecidosBRVolley/src/androidTest/res/raw/
+* desaparecidosBRVolley/src/androidTest/res/raw/large_jpeg_1024_500.jpg
+* desaparecidosBRVolley/src/main/
+* desaparecidosBRVolley/src/main/AndroidManifest.xml
+* desaparecidosBRVolley/src/main/java/
+* desaparecidosBRVolley/src/main/java/com/
+* desaparecidosBRVolley/src/main/java/com/android/
+* desaparecidosBRVolley/src/main/java/com/android/volley/
+* desaparecidosBRVolley/src/main/java/com/android/volley/AuthFailureError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/Cache.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/CacheDispatcher.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/DefaultRetryPolicy.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/ExecutorDelivery.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/Network.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/NetworkDispatcher.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/NetworkError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/NetworkResponse.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/NoConnectionError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/ParseError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/Request.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/RequestQueue.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/Response.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/ResponseDelivery.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/RetryPolicy.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/ServerError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/TimeoutError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/VolleyError.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/VolleyLog.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/AndroidAuthenticator.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/Authenticator.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/BasicNetwork.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/ByteArrayPool.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/ClearCacheRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/HttpClientStack.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/HttpHeaderParser.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/HttpStack.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/HurlStack.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/ImageLoader.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/ImageRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/JsonArrayRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/JsonObjectRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/JsonRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/NetworkImageView.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/NoCache.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/PoolingByteArrayOutputStream.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/RequestFuture.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/StringRequest.java
+* desaparecidosBRVolley/src/main/java/com/android/volley/toolbox/Volley.java
+* etc/
+* etc/.DS_Store
+* etc/DesaparecidosBR.apk
+* etc/DesaparecidosBR1-25052014.apk
+* etc/DesaparecidosBR1.1-26052014.apk
+* etc/Screenshot_2014-05-26-11-25-10.png
+* etc/Screenshot_2014-05-26-11-25-31.png
+* etc/desaparecidos-release.keystore
+* facebookSDK/
+* facebookSDK/build.gradle
+* facebookSDK/libs/
+* facebookSDK/libs/bolts.jar
+* facebookSDK/lint.xml
+* facebookSDK/src/
+* facebookSDK/src/main/
+* facebookSDK/src/main/AndroidManifest.xml
+* facebookSDK/src/main/java/
+* facebookSDK/src/main/java/com/
+* facebookSDK/src/main/java/com/facebook/
+* facebookSDK/src/main/java/com/facebook/AccessToken.java
+* facebookSDK/src/main/java/com/facebook/AccessTokenSource.java
+* facebookSDK/src/main/java/com/facebook/AppEventsConstants.java
+* facebookSDK/src/main/java/com/facebook/AppEventsLogger.java
+* facebookSDK/src/main/java/com/facebook/AppLinkData.java
+* facebookSDK/src/main/java/com/facebook/AuthorizationClient.java
+* facebookSDK/src/main/java/com/facebook/FacebookAppLinkResolver.java
+* facebookSDK/src/main/java/com/facebook/FacebookAuthorizationException.java
+* facebookSDK/src/main/java/com/facebook/FacebookBroadcastReceiver.java
+* facebookSDK/src/main/java/com/facebook/FacebookDialogException.java
+* facebookSDK/src/main/java/com/facebook/FacebookException.java
+* facebookSDK/src/main/java/com/facebook/FacebookGraphObjectException.java
+* facebookSDK/src/main/java/com/facebook/FacebookOperationCanceledException.java
+* facebookSDK/src/main/java/com/facebook/FacebookRequestError.java
+* facebookSDK/src/main/java/com/facebook/FacebookSdkVersion.java
+* facebookSDK/src/main/java/com/facebook/FacebookServiceException.java
+* facebookSDK/src/main/java/com/facebook/GetTokenClient.java
+* facebookSDK/src/main/java/com/facebook/HttpMethod.java
+* facebookSDK/src/main/java/com/facebook/InsightsLogger.java
+* facebookSDK/src/main/java/com/facebook/LegacyHelper.java
+* facebookSDK/src/main/java/com/facebook/LoggingBehavior.java
+* facebookSDK/src/main/java/com/facebook/LoginActivity.java
+* facebookSDK/src/main/java/com/facebook/NativeAppCallAttachmentStore.java
+* facebookSDK/src/main/java/com/facebook/NativeAppCallContentProvider.java
+* facebookSDK/src/main/java/com/facebook/NonCachingTokenCachingStrategy.java
+* facebookSDK/src/main/java/com/facebook/ProgressNoopOutputStream.java
+* facebookSDK/src/main/java/com/facebook/ProgressOutputStream.java
+* facebookSDK/src/main/java/com/facebook/Request.java
+* facebookSDK/src/main/java/com/facebook/RequestAsyncTask.java
+* facebookSDK/src/main/java/com/facebook/RequestBatch.java
+* facebookSDK/src/main/java/com/facebook/RequestOutputStream.java
+* facebookSDK/src/main/java/com/facebook/RequestProgress.java
+* facebookSDK/src/main/java/com/facebook/Response.java
+* facebookSDK/src/main/java/com/facebook/Session.java
+* facebookSDK/src/main/java/com/facebook/SessionDefaultAudience.java
+* facebookSDK/src/main/java/com/facebook/SessionLoginBehavior.java
+* facebookSDK/src/main/java/com/facebook/SessionState.java
+* facebookSDK/src/main/java/com/facebook/Settings.java
+* facebookSDK/src/main/java/com/facebook/SharedPreferencesTokenCachingStrategy.java
+* facebookSDK/src/main/java/com/facebook/TestSession.java
+* facebookSDK/src/main/java/com/facebook/TokenCachingStrategy.java
+* facebookSDK/src/main/java/com/facebook/UiLifecycleHelper.java
+* facebookSDK/src/main/java/com/facebook/android/
+* facebookSDK/src/main/java/com/facebook/android/AsyncFacebookRunner.java
+* facebookSDK/src/main/java/com/facebook/android/DialogError.java
+* facebookSDK/src/main/java/com/facebook/android/Facebook.java
+* facebookSDK/src/main/java/com/facebook/android/FacebookError.java
+* facebookSDK/src/main/java/com/facebook/android/FbDialog.java
+* facebookSDK/src/main/java/com/facebook/android/Util.java
+* facebookSDK/src/main/java/com/facebook/internal/
+* facebookSDK/src/main/java/com/facebook/internal/AnalyticsEvents.java
+* facebookSDK/src/main/java/com/facebook/internal/AttributionIdentifiers.java
+* facebookSDK/src/main/java/com/facebook/internal/CacheableRequestBatch.java
+* facebookSDK/src/main/java/com/facebook/internal/FileLruCache.java
+* facebookSDK/src/main/java/com/facebook/internal/ImageDownloader.java
+* facebookSDK/src/main/java/com/facebook/internal/ImageRequest.java
+* facebookSDK/src/main/java/com/facebook/internal/ImageResponse.java
+* facebookSDK/src/main/java/com/facebook/internal/ImageResponseCache.java
+* facebookSDK/src/main/java/com/facebook/internal/Logger.java
+* facebookSDK/src/main/java/com/facebook/internal/NativeProtocol.java
+* facebookSDK/src/main/java/com/facebook/internal/PlatformServiceClient.java
+* facebookSDK/src/main/java/com/facebook/internal/ServerProtocol.java
+* facebookSDK/src/main/java/com/facebook/internal/SessionAuthorizationType.java
+* facebookSDK/src/main/java/com/facebook/internal/SessionTracker.java
+* facebookSDK/src/main/java/com/facebook/internal/UrlRedirectCache.java
+* facebookSDK/src/main/java/com/facebook/internal/Utility.java
+* facebookSDK/src/main/java/com/facebook/internal/Validate.java
+* facebookSDK/src/main/java/com/facebook/internal/WorkQueue.java
+* facebookSDK/src/main/java/com/facebook/internal/package-info.java
+* facebookSDK/src/main/java/com/facebook/model/
+* facebookSDK/src/main/java/com/facebook/model/CreateGraphObject.java
+* facebookSDK/src/main/java/com/facebook/model/GraphLocation.java
+* facebookSDK/src/main/java/com/facebook/model/GraphMultiResult.java
+* facebookSDK/src/main/java/com/facebook/model/GraphObject.java
+* facebookSDK/src/main/java/com/facebook/model/GraphObjectList.java
+* facebookSDK/src/main/java/com/facebook/model/GraphPlace.java
+* facebookSDK/src/main/java/com/facebook/model/GraphUser.java
+* facebookSDK/src/main/java/com/facebook/model/JsonUtil.java
+* facebookSDK/src/main/java/com/facebook/model/OpenGraphAction.java
+* facebookSDK/src/main/java/com/facebook/model/OpenGraphObject.java
+* facebookSDK/src/main/java/com/facebook/model/PropertyName.java
+* facebookSDK/src/main/java/com/facebook/widget/
+* facebookSDK/src/main/java/com/facebook/widget/FacebookDialog.java
+* facebookSDK/src/main/java/com/facebook/widget/FacebookFragment.java
+* facebookSDK/src/main/java/com/facebook/widget/FriendPickerFragment.java
+* facebookSDK/src/main/java/com/facebook/widget/GraphObjectAdapter.java
+* facebookSDK/src/main/java/com/facebook/widget/GraphObjectCursor.java
+* facebookSDK/src/main/java/com/facebook/widget/GraphObjectPagingLoader.java
+* facebookSDK/src/main/java/com/facebook/widget/LoginButton.java
+* facebookSDK/src/main/java/com/facebook/widget/PickerFragment.java
+* facebookSDK/src/main/java/com/facebook/widget/PlacePickerFragment.java
+* facebookSDK/src/main/java/com/facebook/widget/ProfilePictureView.java
+* facebookSDK/src/main/java/com/facebook/widget/SimpleGraphObjectCursor.java
+* facebookSDK/src/main/java/com/facebook/widget/ToolTipPopup.java
+* facebookSDK/src/main/java/com/facebook/widget/UserSettingsFragment.java
+* facebookSDK/src/main/java/com/facebook/widget/WebDialog.java
+* facebookSDK/src/main/res/
+* facebookSDK/src/main/res/drawable-hdpi/
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_blue_focused.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_blue_normal.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_blue_pressed.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_grey_focused.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_grey_normal.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_button_grey_pressed.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_close.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_inverse_icon.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_logo.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_picker_magnifier.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_black_background.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_black_bottomnub.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_black_topnub.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_black_xout.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_blue_background.9.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_blue_bottomnub.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_blue_topnub.png
+* facebookSDK/src/main/res/drawable-hdpi/com_facebook_tooltip_blue_xout.png
+* facebookSDK/src/main/res/drawable-ldpi/
+* facebookSDK/src/main/res/drawable-ldpi/com_facebook_close.png
+* facebookSDK/src/main/res/drawable-mdpi/
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_button_blue_focused.9.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_button_blue_normal.9.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_button_blue_pressed.9.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_inverse_icon.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_picker_magnifier.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_black_background.9.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_black_bottomnub.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_black_topnub.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_black_xout.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_blue_background.9.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_blue_bottomnub.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_blue_topnub.png
+* facebookSDK/src/main/res/drawable-mdpi/com_facebook_tooltip_blue_xout.png
+* facebookSDK/src/main/res/drawable-xhdpi/
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_blue_focused.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_blue_normal.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_blue_pressed.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_grey_focused.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_grey_normal.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_button_grey_pressed.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_close.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_inverse_icon.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_logo.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_picker_magnifier.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_black_background.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_black_bottomnub.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_black_topnub.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_black_xout.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_blue_bottomnub.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_blue_topnub.png
+* facebookSDK/src/main/res/drawable-xhdpi/com_facebook_tooltip_blue_xout.png
+* facebookSDK/src/main/res/drawable/
+* facebookSDK/src/main/res/drawable/com_facebook_button_blue.xml
+* facebookSDK/src/main/res/drawable/com_facebook_button_blue_focused.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_blue_normal.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_blue_pressed.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_check.xml
+* facebookSDK/src/main/res/drawable/com_facebook_button_check_off.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_check_on.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_grey_focused.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_grey_normal.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_button_grey_pressed.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_close.png
+* facebookSDK/src/main/res/drawable/com_facebook_inverse_icon.png
+* facebookSDK/src/main/res/drawable/com_facebook_list_divider.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_list_section_header_background.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_loginbutton_silver.xml
+* facebookSDK/src/main/res/drawable/com_facebook_logo.png
+* facebookSDK/src/main/res/drawable/com_facebook_picker_item_background.xml
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_focused.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_longpressed.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_pressed.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_selector.xml
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_selector_background_transition.xml
+* facebookSDK/src/main/res/drawable/com_facebook_picker_list_selector_disabled.9.png
+* facebookSDK/src/main/res/drawable/com_facebook_picker_top_button.xml
+* facebookSDK/src/main/res/drawable/com_facebook_place_default_icon.png
+* facebookSDK/src/main/res/drawable/com_facebook_profile_default_icon.png
+* facebookSDK/src/main/res/drawable/com_facebook_profile_picture_blank_portrait.png
+* facebookSDK/src/main/res/drawable/com_facebook_profile_picture_blank_square.png
+* facebookSDK/src/main/res/drawable/com_facebook_top_background.xml
+* facebookSDK/src/main/res/drawable/com_facebook_top_button.xml
+* facebookSDK/src/main/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml
+* facebookSDK/src/main/res/layout/
+* facebookSDK/src/main/res/layout/com_facebook_friendpickerfragment.xml
+* facebookSDK/src/main/res/layout/com_facebook_login_activity_layout.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_activity_circle_row.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_checkbox.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_image.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_list_row.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_list_section_header.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_search_box.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_title_bar.xml
+* facebookSDK/src/main/res/layout/com_facebook_picker_title_bar_stub.xml
+* facebookSDK/src/main/res/layout/com_facebook_placepickerfragment.xml
+* facebookSDK/src/main/res/layout/com_facebook_placepickerfragment_list_row.xml
+* facebookSDK/src/main/res/layout/com_facebook_search_bar_layout.xml
+* facebookSDK/src/main/res/layout/com_facebook_tooltip_bubble.xml
+* facebookSDK/src/main/res/layout/com_facebook_usersettingsfragment.xml
+* facebookSDK/src/main/res/values-es/
+* facebookSDK/src/main/res/values-es/strings.xml
+* facebookSDK/src/main/res/values-hdpi/
+* facebookSDK/src/main/res/values-hdpi/dimens.xml
+* facebookSDK/src/main/res/values-he/
+* facebookSDK/src/main/res/values-he/strings.xml
+* facebookSDK/src/main/res/values-iw/
+* facebookSDK/src/main/res/values-iw/strings.xml
+* facebookSDK/src/main/res/values-ldpi/
+* facebookSDK/src/main/res/values-ldpi/dimens.xml
+* facebookSDK/src/main/res/values-mdpi/
+* facebookSDK/src/main/res/values-mdpi/dimens.xml
+* facebookSDK/src/main/res/values-xhdpi/
+* facebookSDK/src/main/res/values-xhdpi/dimens.xml
+* facebookSDK/src/main/res/values/
+* facebookSDK/src/main/res/values/attrs.xml
+* facebookSDK/src/main/res/values/colors.xml
+* facebookSDK/src/main/res/values/drawables.xml
+* facebookSDK/src/main/res/values/strings.xml
+* facebookSDK/src/main/res/values/styles.xml
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* res copy/
+* res copy/drawable-hdpi/
+* res copy/drawable-hdpi/ic_action_settings.png
+* res copy/drawable-hdpi/ic_details.png
+* res copy/drawable-hdpi/ic_menu_friendslist.png
+* res copy/drawable-hdpi/ic_navigation_drawer.png
+* res copy/drawable-hdpi/ic_pause_active.png
+* res copy/drawable-hdpi/ic_pause_unactive.png
+* res copy/drawable-hdpi/ic_play_active.png
+* res copy/drawable-hdpi/ic_play_unactive.png
+* res copy/drawable-ldpi/
+* res copy/drawable-ldpi/ic_menu_friendslist.png
+* res copy/drawable-mdpi/
+* res copy/drawable-mdpi/ic_action_settings.png
+* res copy/drawable-mdpi/ic_details.png
+* res copy/drawable-mdpi/ic_menu_friendslist.png
+* res copy/drawable-mdpi/ic_navigation_drawer.png
+* res copy/drawable-mdpi/ic_pause_active.png
+* res copy/drawable-mdpi/ic_pause_unactive.png
+* res copy/drawable-mdpi/ic_play_active.png
+* res copy/drawable-mdpi/ic_play_unactive.png
+* res copy/drawable-xhdpi/
+* res copy/drawable-xhdpi/ic_action_search.png
+* res copy/drawable-xhdpi/ic_details.png
+* res copy/drawable-xhdpi/ic_launcher.png
+* res copy/drawable-xhdpi/ic_menu_back.png
+* res copy/drawable-xhdpi/ic_menu_forward.png
+* res copy/drawable-xhdpi/ic_menu_friendslist.png
+* res copy/drawable-xhdpi/ic_navigation_drawer.png
+* res copy/drawable-xhdpi/ic_pause_active.png
+* res copy/drawable-xhdpi/ic_pause_unactive.png
+* res copy/drawable-xhdpi/ic_play_active.png
+* res copy/drawable-xhdpi/ic_play_unactive.png
+* res copy/drawable-xxhdpi/
+* res copy/drawable-xxhdpi/ic_action_settings.png
+* res copy/drawable-xxhdpi/ic_menu_friendslist.png
+* res copy/drawable-xxhdpi/ic_navigation_drawer.png
+* res copy/drawable-xxhdpi/ic_pause_active.png
+* res copy/drawable-xxhdpi/ic_pause_unactive.png
+* res copy/drawable-xxhdpi/ic_play_active.png
+* res copy/drawable-xxhdpi/ic_play_unactive.png
+* res copy/drawable/
+* res copy/drawable/bg_card.xml
+* res copy/drawable/blur.jpg
+* res copy/drawable/button_card.xml
+* res copy/drawable/button_flat.xml
+* res copy/drawable/button_flat_normal.xml
+* res copy/drawable/button_flat_pressed.xml
+* res copy/drawable/button_pause.xml
+* res copy/drawable/button_play.xml
+* res copy/drawable/drawer_title_shape.xml
+* res copy/drawable/facebook.png
+* res copy/drawable/globe.png
+* res copy/drawable/myprogressbar.xml
+* res copy/drawable/roundedlistview.xml
+* res copy/drawable/rss.png
+* res copy/drawable/twitter.png
+* res copy/drawable/youtube.png
+* res copy/layout/
+* res copy/layout/.DS_Store
+* res copy/layout/activity_fav.xml
+* res copy/layout/activity_fav_open.xml
+* res copy/layout/activity_fav_row.xml
+* res copy/layout/activity_main.xml
+* res copy/layout/activity_maps.xml
+* res copy/layout/activity_media.xml
+* res copy/layout/activity_pessoas_row.xml
+* res copy/layout/activity_rss.xml
+* res copy/layout/activity_rss_details.xml
+* res copy/layout/activity_rss_row.xml
+* res copy/layout/activity_tweets.xml
+* res copy/layout/activity_tweets_row.xml
+* res copy/layout/activity_twitter_details.xml
+* res copy/layout/activity_webview.xml
+* res copy/layout/activity_webview_actionbar.xml
+* res copy/layout/activity_youtube.xml
+* res copy/layout/activity_youtube_detail.xml
+* res copy/layout/activity_youtube_footer.xml
+* res copy/layout/activity_youtube_row.xml
+* res copy/layout/slidingmenu.xml
+* res copy/layout/slidingmenu_fragment.xml
+* res copy/layout/slidingmenu_sectionitem.xml
+* res copy/layout/slidingmenu_sectionview.xml
+* res copy/menu/
+* res copy/menu/favorite_menu.xml
+* res copy/menu/rss_detail_menu.xml
+* res copy/menu/rss_menu.xml
+* res copy/menu/tweet_detail_menu.xml
+* res copy/menu/webview_menu.xml
+* res copy/menu/youtube_detail_menu.xml
+* res copy/values/
+* res copy/values/colors.xml
+* res copy/values/dimens.xml
+* res copy/values/settings.xml
+* res copy/values/strings.xml
+* res copy/values/styles.xml
+* res copy/xml/
+* res copy/xml/activity_settings.xml
+* settings.gradle
+From DesaparecidosBR-Volley:
+* .gitignore
+* Android.mk
+* build.gradle
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.cfg
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/Android.mk
+* tests/project.properties
+From FacebookSDK:
+* .DS_Store
+* TestApp/
+* TestApp/.classpath
+* TestApp/.project
+* TestApp/AndroidManifest.xml
+* TestApp/ant.properties
+* TestApp/bin/
+* TestApp/bin/AndroidManifest.xml
+* TestApp/bin/classes/
+* TestApp/bin/classes/com/
+* TestApp/bin/classes/com/facebook/
+* TestApp/bin/classes/com/facebook/sdk/
+* TestApp/bin/classes/com/facebook/sdk/BuildConfig.class
+* TestApp/bin/classes/com/facebook/sdk/R$attr.class
+* TestApp/bin/classes/com/facebook/sdk/R$drawable.class
+* TestApp/bin/classes/com/facebook/sdk/R$layout.class
+* TestApp/bin/classes/com/facebook/sdk/R$string.class
+* TestApp/bin/classes/com/facebook/sdk/R.class
+* TestApp/bin/classes/com/facebook/sdk/StatusActivity.class
+* TestApp/build.gradle
+* TestApp/build.xml
+* TestApp/gen/
+* TestApp/gen/com/
+* TestApp/gen/com/facebook/
+* TestApp/gen/com/facebook/sdk/
+* TestApp/gen/com/facebook/sdk/BuildConfig.java
+* TestApp/gen/com/facebook/sdk/R.java
+* TestApp/proguard-project.txt
+* TestApp/project.properties
+* TestApp/res/
+* TestApp/res/drawable-hdpi/
+* TestApp/res/drawable-hdpi/ic_launcher.png
+* TestApp/res/drawable-ldpi/
+* TestApp/res/drawable-ldpi/ic_launcher.png
+* TestApp/res/drawable-mdpi/
+* TestApp/res/drawable-mdpi/ic_launcher.png
+* TestApp/res/layout/
+* TestApp/res/layout/main.xml
+* TestApp/res/values/
+* TestApp/res/values/strings.xml
+* TestApp/src/
+* TestApp/src/com/
+* TestApp/src/com/facebook/
+* TestApp/src/com/facebook/sdk/
+* TestApp/src/com/facebook/sdk/StatusActivity.java
+* ant.properties
+* build.gradle
+* build.xml
+* proguard-project.txt
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/ant.properties
+* tests/assets/
+* tests/assets/DarkScreen.mov
+* tests/bin/
+* tests/bin/AndroidManifest.xml
+* tests/bin/R.txt
+* tests/bin/classes/
+* tests/bin/classes/com/
+* tests/bin/classes/com/facebook/
+* tests/bin/classes/com/facebook/AccessTokenTests.class
+* tests/bin/classes/com/facebook/AppEventsLoggerTests$1.class
+* tests/bin/classes/com/facebook/AppEventsLoggerTests$2.class
+* tests/bin/classes/com/facebook/AppEventsLoggerTests$3.class
+* tests/bin/classes/com/facebook/AppEventsLoggerTests.class
+* tests/bin/classes/com/facebook/AppLinkDataTests$MockActivityWithAppLinkData.class
+* tests/bin/classes/com/facebook/AppLinkDataTests$MockActivityWithErrorJsonData.class
+* tests/bin/classes/com/facebook/AppLinkDataTests$MockActivityWithJsonData.class
+* tests/bin/classes/com/facebook/AppLinkDataTests.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$1.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$1FriendsCallback.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$1MeCallback.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$2.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$3.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$4.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$5.class
+* tests/bin/classes/com/facebook/AsyncRequestTests$6.class
+* tests/bin/classes/com/facebook/AsyncRequestTests.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$1.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$2.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$3.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$DoNothingAuthorizationClient.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$MockAuthorizationClient.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$MockValidatingAuthorizationClient$1.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$MockValidatingAuthorizationClient$2.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests$MockValidatingAuthorizationClient.class
+* tests/bin/classes/com/facebook/AuthorizationClientTests.class
+* tests/bin/classes/com/facebook/BatchRequestTests$1.class
+* tests/bin/classes/com/facebook/BatchRequestTests$10.class
+* tests/bin/classes/com/facebook/BatchRequestTests$2.class
+* tests/bin/classes/com/facebook/BatchRequestTests$3.class
+* tests/bin/classes/com/facebook/BatchRequestTests$4.class
+* tests/bin/classes/com/facebook/BatchRequestTests$5.class
+* tests/bin/classes/com/facebook/BatchRequestTests$6.class
+* tests/bin/classes/com/facebook/BatchRequestTests$7.class
+* tests/bin/classes/com/facebook/BatchRequestTests$8.class
+* tests/bin/classes/com/facebook/BatchRequestTests$9.class
+* tests/bin/classes/com/facebook/BatchRequestTests.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$1.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$2.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$3.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$4.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$5.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$ExpectFailureCallback.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$ExpectSuccessCallback.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$GraphObjectPostResult.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$MockRequest.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$MockRequestBatch.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$TestCallback.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$TestRequestAsyncTask$1.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$TestRequestAsyncTask$2.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase$TestRequestAsyncTask.class
+* tests/bin/classes/com/facebook/FacebookActivityTestCase.class
+* tests/bin/classes/com/facebook/FacebookActivityTests$FacebookTestActivity.class
+* tests/bin/classes/com/facebook/FacebookActivityTests.class
+* tests/bin/classes/com/facebook/FacebookAppLinkResolverTests$1$1.class
+* tests/bin/classes/com/facebook/FacebookAppLinkResolverTests$1.class
+* tests/bin/classes/com/facebook/FacebookAppLinkResolverTests.class
+* tests/bin/classes/com/facebook/FacebookRequestErrorTests.class
+* tests/bin/classes/com/facebook/FacebookTestCase$FacebookTestActivity.class
+* tests/bin/classes/com/facebook/FacebookTestCase.class
+* tests/bin/classes/com/facebook/GraphRequestTests.class
+* tests/bin/classes/com/facebook/NativeAppCallAttachmentStoreTest.class
+* tests/bin/classes/com/facebook/NativeAppCallContentProviderTest$StubAttachmentStore.class
+* tests/bin/classes/com/facebook/NativeAppCallContentProviderTest.class
+* tests/bin/classes/com/facebook/ProgressNoopOutputStreamTests.class
+* tests/bin/classes/com/facebook/ProgressOutputStreamTests.class
+* tests/bin/classes/com/facebook/RequestTests$1.class
+* tests/bin/classes/com/facebook/RequestTests$2.class
+* tests/bin/classes/com/facebook/RequestTests$3.class
+* tests/bin/classes/com/facebook/RequestTests$4.class
+* tests/bin/classes/com/facebook/RequestTests$5.class
+* tests/bin/classes/com/facebook/RequestTests.class
+* tests/bin/classes/com/facebook/SessionTests$1.class
+* tests/bin/classes/com/facebook/SessionTests$2.class
+* tests/bin/classes/com/facebook/SessionTests$3.class
+* tests/bin/classes/com/facebook/SessionTests.class
+* tests/bin/classes/com/facebook/SessionTestsBase$1.class
+* tests/bin/classes/com/facebook/SessionTestsBase$1MutableState.class
+* tests/bin/classes/com/facebook/SessionTestsBase$MockTokenCachingStrategy.class
+* tests/bin/classes/com/facebook/SessionTestsBase$ScriptedSession$1.class
+* tests/bin/classes/com/facebook/SessionTestsBase$ScriptedSession$AuthorizeResult.class
+* tests/bin/classes/com/facebook/SessionTestsBase$ScriptedSession.class
+* tests/bin/classes/com/facebook/SessionTestsBase$SessionStatusCallbackRecorder$Call.class
+* tests/bin/classes/com/facebook/SessionTestsBase$SessionStatusCallbackRecorder.class
+* tests/bin/classes/com/facebook/SessionTestsBase.class
+* tests/bin/classes/com/facebook/SettingsTests$1.class
+* tests/bin/classes/com/facebook/SettingsTests$2.class
+* tests/bin/classes/com/facebook/SettingsTests$3.class
+* tests/bin/classes/com/facebook/SettingsTests.class
+* tests/bin/classes/com/facebook/SharedPreferencesTokenCacheTests.class
+* tests/bin/classes/com/facebook/TestBlocker.class
+* tests/bin/classes/com/facebook/TestSessionTests$1.class
+* tests/bin/classes/com/facebook/TestSessionTests.class
+* tests/bin/classes/com/facebook/TestUtils$1.class
+* tests/bin/classes/com/facebook/TestUtils.class
+* tests/bin/classes/com/facebook/WaitForBroadcastReceiver.class
+* tests/bin/classes/com/facebook/android/
+* tests/bin/classes/com/facebook/android/R$attr.class
+* tests/bin/classes/com/facebook/android/R$color.class
+* tests/bin/classes/com/facebook/android/R$dimen.class
+* tests/bin/classes/com/facebook/android/R$drawable.class
+* tests/bin/classes/com/facebook/android/R$id.class
+* tests/bin/classes/com/facebook/android/R$layout.class
+* tests/bin/classes/com/facebook/android/R$string.class
+* tests/bin/classes/com/facebook/android/R$style.class
+* tests/bin/classes/com/facebook/android/R$styleable.class
+* tests/bin/classes/com/facebook/android/R.class
+* tests/bin/classes/com/facebook/internal/
+* tests/bin/classes/com/facebook/internal/FileLruCacheTests$1.class
+* tests/bin/classes/com/facebook/internal/FileLruCacheTests.class
+* tests/bin/classes/com/facebook/internal/ImageResponseCacheTests.class
+* tests/bin/classes/com/facebook/internal/SessionTrackerTests$1.class
+* tests/bin/classes/com/facebook/internal/SessionTrackerTests.class
+* tests/bin/classes/com/facebook/internal/ValidateTests.class
+* tests/bin/classes/com/facebook/internal/WorkQueueTests$CountingRunnable.class
+* tests/bin/classes/com/facebook/internal/WorkQueueTests$ScriptableExecutor.class
+* tests/bin/classes/com/facebook/internal/WorkQueueTests$StressRunnable.class
+* tests/bin/classes/com/facebook/internal/WorkQueueTests.class
+* tests/bin/classes/com/facebook/model/
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadBaseInterfaceGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadGetterNameGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadGetterParamsGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadGetterReturnTypeGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadNoParameterMethodNameGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadPropertyOverrideInterfaceGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadSetterNameGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadSetterParamsGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadSetterReturnTypeGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$BadSingleParameterMethodNameGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$Base.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$DateGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$Derived.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$GoodPropertyOverrideInterfaceGraphObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$GraphMetric.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$GraphObjectClass.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$GraphObjectWithPrimitives.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$Locations.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$NestedObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests$ObjectWithNestedObject.class
+* tests/bin/classes/com/facebook/model/GraphObjectFactoryTests.class
+* tests/bin/classes/com/facebook/model/JsonUtilTests.class
+* tests/bin/classes/com/facebook/model/OpenGraphActionTests$TestOpenGraphAction.class
+* tests/bin/classes/com/facebook/model/OpenGraphActionTests$TestOpenGraphActionData.class
+* tests/bin/classes/com/facebook/model/OpenGraphActionTests.class
+* tests/bin/classes/com/facebook/model/OpenGraphObjectTests$TestOpenGraphObject.class
+* tests/bin/classes/com/facebook/model/OpenGraphObjectTests$TestOpenGraphObjectData.class
+* tests/bin/classes/com/facebook/model/OpenGraphObjectTests.class
+* tests/bin/classes/com/facebook/sdk/
+* tests/bin/classes/com/facebook/sdk/tests/
+* tests/bin/classes/com/facebook/sdk/tests/BuildConfig.class
+* tests/bin/classes/com/facebook/sdk/tests/R$attr.class
+* tests/bin/classes/com/facebook/sdk/tests/R$color.class
+* tests/bin/classes/com/facebook/sdk/tests/R$dimen.class
+* tests/bin/classes/com/facebook/sdk/tests/R$drawable.class
+* tests/bin/classes/com/facebook/sdk/tests/R$id.class
+* tests/bin/classes/com/facebook/sdk/tests/R$layout.class
+* tests/bin/classes/com/facebook/sdk/tests/R$string.class
+* tests/bin/classes/com/facebook/sdk/tests/R$style.class
+* tests/bin/classes/com/facebook/sdk/tests/R$styleable.class
+* tests/bin/classes/com/facebook/sdk/tests/R.class
+* tests/bin/classes/com/facebook/widget/
+* tests/bin/classes/com/facebook/widget/FacebookDialogTests.class
+* tests/bin/classes/com/facebook/widget/FragmentTestCase$TestFragmentActivity.class
+* tests/bin/classes/com/facebook/widget/FragmentTestCase.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$1.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$2.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$3.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$4$1.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$4.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests$TestActivity.class
+* tests/bin/classes/com/facebook/widget/FriendPickerFragmentTests.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$1.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$2.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$3.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$CountingCallback.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$DummyFragment.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests$TestActivity.class
+* tests/bin/classes/com/facebook/widget/GraphObjectPagingLoaderTests.class
+* tests/bin/classes/com/facebook/widget/LoginButtonTest$1.class
+* tests/bin/classes/com/facebook/widget/LoginButtonTest$2.class
+* tests/bin/classes/com/facebook/widget/LoginButtonTest$3.class
+* tests/bin/classes/com/facebook/widget/LoginButtonTest$4.class
+* tests/bin/classes/com/facebook/widget/LoginButtonTest.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$1.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$2.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$3.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$4$1.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$4$2.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$4.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$5.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$6$1.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$6$2.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$6.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$7$1.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$7.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests$TestActivity.class
+* tests/bin/classes/com/facebook/widget/PlacePickerFragmentTests.class
+* tests/bin/classes/com/facebook/widget/UserSettingsFragmentTests$TestActivity.class
+* tests/bin/classes/com/facebook/widget/UserSettingsFragmentTests.class
+* tests/bin/jarlist.cache
+* tests/build.gradle
+* tests/build.xml
+* tests/gen/
+* tests/gen/com/
+* tests/gen/com/facebook/
+* tests/gen/com/facebook/android/
+* tests/gen/com/facebook/android/R.java
+* tests/gen/com/facebook/sdk/
+* tests/gen/com/facebook/sdk/tests/
+* tests/gen/com/facebook/sdk/tests/BuildConfig.java
+* tests/gen/com/facebook/sdk/tests/R.java
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/layout/
+* tests/res/layout/friend_picker_test_layout_1.xml
+* tests/res/layout/place_picker_test_layout_1.xml
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/facebook/
+* tests/src/com/facebook/AccessTokenTests.java
+* tests/src/com/facebook/AppEventsLoggerTests.java
+* tests/src/com/facebook/AppLinkDataTests.java
+* tests/src/com/facebook/AsyncRequestTests.java
+* tests/src/com/facebook/AuthorizationClientTests.java
+* tests/src/com/facebook/BatchRequestTests.java
+* tests/src/com/facebook/FacebookActivityTestCase.java
+* tests/src/com/facebook/FacebookActivityTests.java
+* tests/src/com/facebook/FacebookAppLinkResolverTests.java
+* tests/src/com/facebook/FacebookRequestErrorTests.java
+* tests/src/com/facebook/FacebookTestCase.java
+* tests/src/com/facebook/GraphRequestTests.java
+* tests/src/com/facebook/NativeAppCallAttachmentStoreTest.java
+* tests/src/com/facebook/NativeAppCallContentProviderTest.java
+* tests/src/com/facebook/ProgressNoopOutputStreamTests.java
+* tests/src/com/facebook/ProgressOutputStreamTests.java
+* tests/src/com/facebook/RequestTests.java
+* tests/src/com/facebook/SessionTests.java
+* tests/src/com/facebook/SessionTestsBase.java
+* tests/src/com/facebook/SettingsTests.java
+* tests/src/com/facebook/SharedPreferencesTokenCacheTests.java
+* tests/src/com/facebook/TestBlocker.java
+* tests/src/com/facebook/TestSessionTests.java
+* tests/src/com/facebook/TestUtils.java
+* tests/src/com/facebook/WaitForBroadcastReceiver.java
+* tests/src/com/facebook/internal/
+* tests/src/com/facebook/internal/FileLruCacheTests.java
+* tests/src/com/facebook/internal/ImageResponseCacheTests.java
+* tests/src/com/facebook/internal/SessionTrackerTests.java
+* tests/src/com/facebook/internal/ValidateTests.java
+* tests/src/com/facebook/internal/WorkQueueTests.java
+* tests/src/com/facebook/model/
+* tests/src/com/facebook/model/GraphObjectFactoryTests.java
+* tests/src/com/facebook/model/JsonUtilTests.java
+* tests/src/com/facebook/model/OpenGraphActionTests.java
+* tests/src/com/facebook/model/OpenGraphObjectTests.java
+* tests/src/com/facebook/widget/
+* tests/src/com/facebook/widget/FacebookDialogTests.java
+* tests/src/com/facebook/widget/FragmentTestCase.java
+* tests/src/com/facebook/widget/FriendPickerFragmentTests.java
+* tests/src/com/facebook/widget/GraphObjectPagingLoaderTests.java
+* tests/src/com/facebook/widget/LoginButtonTest.java
+* tests/src/com/facebook/widget/PlacePickerFragmentTests.java
+* tests/src/com/facebook/widget/UserSettingsFragmentTests.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+Compras-google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In DesaparecidosBR-Volley:
+* AndroidManifest.xml => desaparecidosBRVolley/src/main/AndroidManifest.xml
+* assets/ => desaparecidosBRVolley/src/main/assets/
+* res/ => desaparecidosBRVolley/src/main/res/
+* src/ => desaparecidosBRVolley/src/main/java/
+* tests/res/ => desaparecidosBRVolley/src/androidTest/res/
+* tests/src/ => desaparecidosBRVolley/src/androidTest/java/
+In FacebookSDK:
+* AndroidManifest.xml => facebookSDK/src/main/AndroidManifest.xml
+* assets/ => facebookSDK/src/main/assets/
+* /Users/hussan/dev/android2/DesaparecidosBR/Libraries/facebook-android-sdk-master/facebook/libs/bolts.jar => facebookSDK/libs/bolts.jar
+* lint.xml => facebookSDK/lint.xml
+* res/ => facebookSDK/src/main/res/
+* src/ => facebookSDK/src/main/java/
+In DesaparecidosBR:
+* AndroidManifest.xml => desaparecidosBR/src/main/AndroidManifest.xml
+* assets/ => desaparecidosBR/src/main/assets/
+* libs/google-play-services.jar => desaparecidosBR/libs/google-play-services.jar
+* lint.xml => desaparecidosBR/lint.xml
+* res/ => desaparecidosBR/src/main/res/
+* src/ => desaparecidosBR/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
     <dimen name="myMargin">10dp</dimen>
     <!-- sliding menu -->
     <dimen name="slidingmenu_offset">60dp</dimen>

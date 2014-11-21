@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    This document contains:
+    -Required setup information
+    -Strings for translation
+    
+    Notations:
+    -When a string value starts en ends with a " this is only to maintain spaces, the " will not be visible 
+    -To do a line break, use \n and to escape characters use \character (e.g.: \" will make the " visible)
+
+    @author Sherdle
+    -->
+
+    <string name="app_name">Desaparecidos Brasil</string>
+    <string name="texto_inicio">
+<![CDATA[   
+   Obrigado por usar o aplicativo de pessoas desaparecidas no Brasil.
+   Todos os dados foram obtidos do site www.desaparecidos.gov.br . 
+    ]]>
+    </string>
+    <string name="atencao">ATENÇÃO: Se você tem informações que ajudem na busca e localização dessa pessoa, entre em contado com a Delegacia de Polícia ou Conselho Tutelar de sua Cidade. Ou Disque 100, a ligação é gratuita e sigilosa.</string>
+    <string name="origem_dados">Todos os dados foram obtidos do site www.desaparecidos.gov.br . A atualização dos dados é feita 1 por dia.</string>
+    <string name="ok">Ok</string>
+    <string name="carregando">Carregando..</string>
+    <string name="no_connection">No connection</string>
+    <string name="app_id">602770343164113</string>
+
+</resources>
