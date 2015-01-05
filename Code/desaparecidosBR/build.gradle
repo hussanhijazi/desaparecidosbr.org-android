@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "org.desaparecidosbr.app"
         minSdkVersion 14
-        targetSdkVersion 18
+        targetSdkVersion 21
     }
 
     buildTypes {
