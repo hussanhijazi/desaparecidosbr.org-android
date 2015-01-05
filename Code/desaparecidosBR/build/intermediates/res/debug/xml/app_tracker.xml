@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" >
+<resources>
 
 <!-- The apps Analytics Tracking Id -->
 <string name="ga_trackingId">UA-1814735-20</string>
