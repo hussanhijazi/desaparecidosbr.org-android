@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:17:1-20:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:17:1-20:12
+	package
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:17:11-41
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:17:1-20:12
+application
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml:19:5-20
+uses-sdk
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/facebookSDK/src/main/AndroidManifest.xml

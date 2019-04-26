@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/hussan/.gradle/caches/transforms-2/files-2.1/26318c331316db86a0f2a12e14ce987a/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Code.iml" filepath="$PROJECT_DIR$/Code.iml" />
       <module fileurl="file://$PROJECT_DIR$/desaparecidosBR/desaparecidosBR.iml" filepath="$PROJECT_DIR$/desaparecidosBR/desaparecidosBR.iml" />
-      <module fileurl="file://$PROJECT_DIR$/desaparecidosBRVolley/desaparecidosBRVolley.iml" filepath="$PROJECT_DIR$/desaparecidosBRVolley/desaparecidosBRVolley.iml" />
-      <module fileurl="file://$PROJECT_DIR$/facebookSDK/facebookSDK.iml" filepath="$PROJECT_DIR$/facebookSDK/facebookSDK.iml" />
     </modules>
   </component>
 </project>
-

@@ -1,13 +1,20 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
 
 android {
-    compileSdkVersion 14
-    buildToolsVersion "21.1.1"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "org.desaparecidosbr.app"
-        minSdkVersion 14
-        targetSdkVersion 21
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
     }
 
     buildTypes {
@@ -19,10 +26,19 @@ android {
 }
 
 dependencies {
-    compile project(':desaparecidosBRVolley')
-    compile project(':facebookSDK')
-    //compile 'com.android.support:support-v4:18.0.0'
-    compile 'com.google.code.gson:gson:2.2.4'
-    compile 'com.google.android.gms:play-services:+'
+    //implementation project(':desaparecidosBRVolley')
+//    implementation project(':facebookSDK')
+    implementation "com.android.support:appcompat-v7:28.0.0"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+
+    //compile 'com.google.android.gms:play-services:12.0.1'
     //compile files('libs/google-play-services.jar')
 }

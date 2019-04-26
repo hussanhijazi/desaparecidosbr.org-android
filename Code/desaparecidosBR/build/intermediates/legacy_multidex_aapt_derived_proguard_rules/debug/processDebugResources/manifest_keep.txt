@@ -1,0 +1,4 @@
+# Referenced at /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/build/intermediates/merged_manifests/debug/AndroidManifest.xml:33
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/build/intermediates/merged_manifests/debug/AndroidManifest.xml:33
+-keep class org.desaparecidosbr.app.utils.MyApplication { <init>(); }

@@ -1,9 +1,0 @@
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/classes/debug
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-5cbf6a9669218df040f529f9779ddf5eba619ecf.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/bolts-095a78e3264ad9fb626ee5b7686bea063c646799.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/classes-9f9e7d9050f93cd696f8f40af5a5ef56d76c377a.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-5234df072a97881fc729dd605d8cf09897973c86.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/gson-2.2.4-55cc2004c8936de23f98f4992f545efc0b6a6747.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/classes-bb6126277ce9bd4294bd86426112dd14f5a21df6.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/classes-bc547effc02b11df5f9dc670e2dd274e2e0d4d70.jar
-/Users/hussan/dev/android2/DesaparecidosBR/Code/desaparecidosBR/build/intermediates/pre-dexed/debug/classes-5332e62548b81406f3590a340dbe9de7f5987dbd.jar

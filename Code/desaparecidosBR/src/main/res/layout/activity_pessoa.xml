@@ -2,20 +2,20 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/pessoa_view"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/myMargin"
         android:layout_marginLeft="@dimen/myMargin"
-        android:layout_marginRight="@dimen/myMargin"
         android:layout_marginTop="@dimen/myMargin"
+        android:layout_marginRight="@dimen/myMargin"
+        android:layout_marginBottom="@dimen/myMargin"
         android:background="@drawable/bg_card"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/myMargin" >
+        android:paddingBottom="@dimen/myMargin">
 
-        <com.android.volley.toolbox.NetworkImageView
+        <ImageView
             android:id="@+id/pessoa_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,18 +42,18 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="" >
+                android:gravity="">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_sexo"
@@ -75,7 +75,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_pele"
@@ -97,13 +97,13 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="" >
+                android:gravity="">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_peso"
@@ -125,7 +125,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_altura"
@@ -147,13 +147,13 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="" >
+                android:gravity="">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_olhos"
@@ -175,7 +175,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_cabelos"
@@ -219,18 +219,18 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:gravity="" >
+                android:gravity="">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_cidade"
@@ -252,7 +252,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/pessoa_lbl_estado"
@@ -321,8 +321,8 @@
             android:id="@+id/pessoa_avisar"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/myMargin"
             android:layout_marginTop="@dimen/myMargin"
+            android:layout_marginBottom="@dimen/myMargin"
             android:background="@drawable/pink_button"
             android:text="@string/atencao"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -352,9 +352,8 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center"
-            android:layout_marginBottom="@dimen/myMargin"
-             android:layout_marginTop="@dimen/myMargin"
-             >
+            android:layout_marginTop="@dimen/myMargin"
+            android:layout_marginBottom="@dimen/myMargin">
 
             <include layout="@layout/ad_view" />
         </LinearLayout>

@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+MERGED from [com.android.support:multidex:1.0.3] /home/hussan/.gradle/caches/transforms-2/files-2.1/f4731117eec128c7fea19fbaf9af67b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26318c331316db86a0f2a12e14ce987a/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/c694aca62b587ce4fa96dccf029734ba/AndroidManifest.xml:15:1-20:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/480ef5a60de4c9db8a0c072d38482cac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8acdc98814fd28f8dbb6c29e3392b934/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9c7a646c3ba88c1123190a21ba1fb85a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/22884d1a8ad8d7d57105a03194a848f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c5c24b51b1a10d622c00a092ad934241/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c08aa4014faf8310e68f14dd0f4cf744/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/32749ff3aa47dc93808a13f654f44178/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e120c68926d068ff1b44d4f6cda0acad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/d0754cae4a836e11546c676319a62a2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/b30a372921cab334dbe185a9e5b10a8b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/58ce9f6fff6f83c2d784dd456d009db9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26e134971f86f5dd9cbacb6b09718af0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8baf8df60d3cc2ee43e98d811ab7eec8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9fdf5fdbc1dbc7c33302d446625524e8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/df078a8581d49b91ee3c0b13ef9d1ee9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/7f86de5c285b9c02149874ed758ed6fa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/b8a44a5267ba00311d3d50d01707d2f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d29029004cd970ae07363d17e993673/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/28fbda4cab23f9e83b987dfcd42c0b86/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e1b9e76212746d16d4ad4ed76011703e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d7fa9c78bd2f58a78e6cff81217e2ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/eeebba8930ee6386e153323a75675018/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/89961ff2d10a667459cb1cb74029d559/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/1e2a7e927308763cc4ae5ad1acc70048/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/3c77064d30e4a16512fe4b51bd9591ea/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+	package
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:1-118:12
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:9:22-78
+uses-feature#0x00020000
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:22:5-24:35
+	android:glEsVersion
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:23:9-41
+	android:required
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:24:9-32
+application
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:26:5-116:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9fdf5fdbc1dbc7c33302d446625524e8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9fdf5fdbc1dbc7c33302d446625524e8/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:30:9-41
+	tools:ignore
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:34:9-48
+	tools:targetApi
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:35:9-28
+	android:icon
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:29:9-39
+	android:allowBackup
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:32:9-42
+	android:usesCleartextTraffic
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:33:9-44
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:27:9-44
+meta-data#com.google.android.gms.analytics.globalConfigResource
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:38:9-40:54
+	android:resource
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:40:13-51
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:39:13-81
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:44:9-46:46
+	android:value
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:45:13-58
+activity#com.facebook.LoginActivity
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:48:9-50:75
+	android:theme
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:49:13-54
+activity#org.desaparecidosbr.app.MainActivity
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:51:9-59:20
+	android:label
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:52:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:57:27-74
+activity#org.desaparecidosbr.app.PessoaActivity
+ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:60:9-52
+	android:name
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml:60:19-49
+uses-sdk
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /home/hussan/.gradle/caches/transforms-2/files-2.1/f4731117eec128c7fea19fbaf9af67b9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/hussan/.gradle/caches/transforms-2/files-2.1/f4731117eec128c7fea19fbaf9af67b9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26318c331316db86a0f2a12e14ce987a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26318c331316db86a0f2a12e14ce987a/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/c694aca62b587ce4fa96dccf029734ba/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/c694aca62b587ce4fa96dccf029734ba/AndroidManifest.xml:18:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/480ef5a60de4c9db8a0c072d38482cac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/480ef5a60de4c9db8a0c072d38482cac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8acdc98814fd28f8dbb6c29e3392b934/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8acdc98814fd28f8dbb6c29e3392b934/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9c7a646c3ba88c1123190a21ba1fb85a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9c7a646c3ba88c1123190a21ba1fb85a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/22884d1a8ad8d7d57105a03194a848f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/22884d1a8ad8d7d57105a03194a848f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c5c24b51b1a10d622c00a092ad934241/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c5c24b51b1a10d622c00a092ad934241/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c08aa4014faf8310e68f14dd0f4cf744/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/c08aa4014faf8310e68f14dd0f4cf744/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/32749ff3aa47dc93808a13f654f44178/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/32749ff3aa47dc93808a13f654f44178/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e120c68926d068ff1b44d4f6cda0acad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e120c68926d068ff1b44d4f6cda0acad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/d0754cae4a836e11546c676319a62a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/d0754cae4a836e11546c676319a62a2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/b30a372921cab334dbe185a9e5b10a8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/b30a372921cab334dbe185a9e5b10a8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/58ce9f6fff6f83c2d784dd456d009db9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/58ce9f6fff6f83c2d784dd456d009db9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26e134971f86f5dd9cbacb6b09718af0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/26e134971f86f5dd9cbacb6b09718af0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8baf8df60d3cc2ee43e98d811ab7eec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/8baf8df60d3cc2ee43e98d811ab7eec8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/dd7536d5d5f78c8fd0b403a2c27fda0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9fdf5fdbc1dbc7c33302d446625524e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/9fdf5fdbc1dbc7c33302d446625524e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/df078a8581d49b91ee3c0b13ef9d1ee9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/df078a8581d49b91ee3c0b13ef9d1ee9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/7f86de5c285b9c02149874ed758ed6fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/7f86de5c285b9c02149874ed758ed6fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/b8a44a5267ba00311d3d50d01707d2f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/b8a44a5267ba00311d3d50d01707d2f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d29029004cd970ae07363d17e993673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d29029004cd970ae07363d17e993673/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/28fbda4cab23f9e83b987dfcd42c0b86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/28fbda4cab23f9e83b987dfcd42c0b86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e1b9e76212746d16d4ad4ed76011703e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/e1b9e76212746d16d4ad4ed76011703e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d7fa9c78bd2f58a78e6cff81217e2ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/5d7fa9c78bd2f58a78e6cff81217e2ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/eeebba8930ee6386e153323a75675018/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/eeebba8930ee6386e153323a75675018/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/89961ff2d10a667459cb1cb74029d559/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/89961ff2d10a667459cb1cb74029d559/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/1e2a7e927308763cc4ae5ad1acc70048/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/hussan/.gradle/caches/transforms-2/files-2.1/1e2a7e927308763cc4ae5ad1acc70048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/3c77064d30e4a16512fe4b51bd9591ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/hussan/.gradle/caches/transforms-2/files-2.1/3c77064d30e4a16512fe4b51bd9591ea/AndroidManifest.xml:20:5-44
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		ADDED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+		INJECTED from /home/hussan/dev/android/desaparecidosbr.org-android/Code/desaparecidosBR/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/hussan/.gradle/caches/transforms-2/files-2.1/15b82fbc6bb30c05bcab5039d622354f/AndroidManifest.xml:9:13-64

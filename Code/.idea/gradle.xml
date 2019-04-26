@@ -10,12 +10,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/desaparecidosBR" />
-            <option value="$PROJECT_DIR$/desaparecidosBRVolley" />
-            <option value="$PROJECT_DIR$/facebookSDK" />
           </set>
         </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>
 </project>
-
